@@ -80,6 +80,7 @@ Sigue el menú interactivo en consola para realizar tus conversiones.
 
 ![Screen Inicio de programa](Assets/FinalizacionApp.png)
 
+## Manejo de errores: Esta diseñado para prevenir y manejar el flujo del programa indicando y guiando al usuario.
 ---
 
 ## 🛠️ Tecnologías Usadas
