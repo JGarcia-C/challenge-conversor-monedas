@@ -27,8 +27,8 @@ los resultados se muestran en consola y se almacenan en un archivo de historial 
 
 ### 1. Clonar el repositorio
 bash
-git clone https://github.com/usuario/conversor-divisas.git
-cd conversor-divisas
+git clone https://github.com/JGarcia-C/challenge-conversor-monedas.git
+cd challenge-conversor-monedas
 ### 2. Requerimientos
 Java 8 o superior.
 IDE: Se recomienda IntelliJ IDEA o Eclipse.
@@ -41,24 +41,61 @@ javac -cp .:gson.jar ConversorMain.java
 java -cp .:gson.jar ConversorMain
 Sigue el menú interactivo en consola para realizar tus conversiones.
 
+---
+
 ## 📋 Ejemplo de Uso y Salida
 
-Inicio del Programa:
+### Inicio del Programa:
+![Screen Inicio de programa](Assets/InicioApp.png)
+
+### Realizar una conversión: Una vez seleccionadas las divisas y el monto, el programa muestra el resultado y pregunta si deseas realizar otra conversión o ver el historial.
+
+### -Seleccion:
 
 
-Realizar una conversión: Una vez seleccionadas las divisas y el monto, el programa muestra el resultado y pregunta si deseas realizar otra conversión o ver el historial.
+![Screen Inicio de programa](Assets/Conversion.png)
 
-Historial: Se guarda en un archivo historial.txt, donde cada entrada tiene el formato:
+### -Respuesta:
+
+
+![Screen Inicio de programa](Assets/RespuestaFinal.png)
+
+### -Seleccion 2:
+
+
+![Screen Inicio de programa](Assets/Conversion2.png)
+
+### -Respuesta:
+
+
+![Screen Inicio de programa](Assets/Respuesta2.png)
+
+## Historial: Se guarda las respuestas en una lista, una vez el usuario escoge la opcion evidencia en consola.
+
+
+![Screen Inicio de programa](Assets/OpcionHistorial.png)
+
+## Finalizacion app: Salida de aplicativo.
+
+
+![Screen Inicio de programa](Assets/FinalizacionApp.png)
+
+---
 
 ## 🛠️ Tecnologías Usadas
--**Java - Para la lógica principal.
--**Gson - Para manejar JSON en la respuesta de la API.
+- **Java - Para la lógica principal.
+- **Gson - Para manejar JSON en la respuesta de la API.
 
-👤 Autor
+---
+
+## 👤 Autor
 Usuario GitHub: JGarcia-C
 
-🤝 Contribuciones
+---
+
+## 🤝 Contribuciones
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor abre un issue o envía un pull request.
 
+---
 
-¡Gracias por usar este conversor de divisas! 🚀💱
+### ¡Gracias por usar este conversor de divisas! 🚀💱
