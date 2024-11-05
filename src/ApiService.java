@@ -11,6 +11,7 @@ import java.util.List;
 
 public class ApiService {
 
+    private Scanner clave = new Scanner(System.in);
     List<DatosDivisas> datosDivisas = new ArrayList<>();
     Gson gson = new GsonBuilder()
             .setPrettyPrinting()
@@ -19,9 +20,10 @@ public class ApiService {
     public void obtenerTasaCambio (String monedaOrigen, String monedaDestino, String monto)
             throws IOException, InterruptedException {
 
+        System.out.println("Ingrese ApiKey de OMDB: ");
+        String claveApi = clave.nextLine();
         String urlBase = "https://v6.exchangerate-api.com/v6/";
-        String claveApi = "37cb4adfef2ef55ad2a3e0e5";
-
+        
         try {
             HttpClient cliente = HttpClient.newHttpClient();
             HttpRequest solicitud = HttpRequest.newBuilder()
